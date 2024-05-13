@@ -1,0 +1,89 @@
+.userContainer {
+    margin: 0 auto;
+    width: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.userInformation {
+    margin: 0 auto;
+}
+
+.img {
+    margin-top: 20px;
+    width: 150px;
+    background-color: black;
+    border-radius: 75px;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 0.1;
+}
+
+.tag {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0.1;
+    color: #716c6c;
+}
+
+.location {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0.1;
+    color: #716c6c;
+}
+
+.userList {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    border-top: 2px solid #898282;
+    background-color: #bcbcbc;
+    list-style-type: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.userItem {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    border-right: 2px solid #898282;
+}
+
+.userItem:last-child {
+    border-right: none;
+}
+
+.statisticText {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 1;
+}
+
+.statisticNumber {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
